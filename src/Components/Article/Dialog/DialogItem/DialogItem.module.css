@@ -1,0 +1,20 @@
+
+    .dialog{
+      display: flex;
+      border: 1px solid white;
+      border-radius: 20px;
+      background-color: white;
+      margin-bottom: 10px;
+      color: black;
+
+    }
+    
+    .dialog img {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-left: 50px;
+      padding: 5px;
+    }
+   
+  

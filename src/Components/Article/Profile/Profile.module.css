@@ -1,0 +1,20 @@
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width:90%;
+    border: 1px solid #3B4653;
+    border-radius: 20px;
+    background-color: #3B4653 ;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
+
+  .aboutMe img{
+    padding-top: 20%;
+    height: 150px;
+    width: 120px;
+  }

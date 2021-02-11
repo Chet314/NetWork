@@ -1,0 +1,35 @@
+.friends, .online{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #3B4653;
+    border-radius: 20px;
+    background-color: #3B4653 ;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    
+  }
+  
+  .head{
+    display: inline-flex;
+    padding-left: 30px;
+  }
+  
+  .friend{
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:right;
+  
+  }
+  .friend p {
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  
+  
+  .friends img, .online img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  

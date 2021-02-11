@@ -1,0 +1,47 @@
+
+ .news, .gallery, .videos, .communites{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    align-items: center;
+    border: 1px solid #3B4653;
+    border-radius: 20px;
+    background-color: #3B4653 ;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+  }
+ 
+  .newsContainer{
+  display: inline-flex;
+  align-self: stretch;
+  justify-content: left;
+  }
+  .videos video{
+    border: 1px solid white;
+  }
+  
+  .news img{
+    height: 30px;
+    margin-left: 50px;
+  }
+  
+  .imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img , .communites img{
+    height: 130px;
+    padding: 5px;
+    border-radius: 20px;
+  
+  }
+  .videoContainer{
+    position: relative;
+    z-index: 1;
+  }
+  
+ 

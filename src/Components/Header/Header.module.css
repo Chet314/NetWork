@@ -1,0 +1,43 @@
+.wrapper{
+    display: flex; 
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #3B4653;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    padding-left: 100px;
+    padding-right: 300px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+
+  .inputWrapper{
+    padding-left: 50px;
+  }
+  
+ 
+  
+  ul{
+  display: inline-flex;
+  padding-right: 30px;
+  align-content: center;
+  }
+  
+  li {
+    list-style: none;
+    padding-left: 20px;
+  }
+ 
+  
+  li img{
+    height: 50px;
+   
+  }
+
+  li img:hover{
+    transform: scale(1.5);
+   }

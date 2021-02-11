@@ -1,0 +1,68 @@
+
+    .profile{
+      display: block;
+      position: relative;
+      z-index: 0;
+      border-radius: 20px;
+      background-color: white;
+      color: black;
+      width: 90%;
+      margin: 20px 20px;
+    
+    }
+    .profile p{
+      padding-left: 20px;
+      font-weight: bold;
+    }
+
+    .posts{
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .avatarDescription{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
+      margin-left: 20px;
+    }
+    .avatarDescription h2{
+      font-size: 16px;
+      padding: 0px;
+    }
+    .avatarDescription h3{
+      font-size: 14px;
+      font-weight: 300;
+      padding: 0px;
+    }
+
+    .posts img{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-top: 20px;
+      margin-left: 20px;
+      padding: 5px;
+    }
+
+    .images{
+     position: relative;
+     z-index: 2;
+     border-radius: 5%;
+     overflow: hidden;
+     width: 850px;
+     top: 0;
+     left: -20px;
+     margin-bottom: 20px;
+    }
+   
+    .likes{
+      text-align: right;
+      padding-right:20px ;
+    }
+
+    
+
+    
+   
+  
